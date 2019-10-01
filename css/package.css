@@ -1,0 +1,186 @@
+:root{
+	--main-theme-color:#EF5350;
+	--card-bg-color:#EEEEEE;
+	--light-bg-color:#FFFFFF;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+nav{
+
+	height: 55px;
+}
+
+div.banner-wrapper{
+	height: 500px;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) )
+	, url("../assets/images/journey.jpg");
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1{
+margin: 0px;
+padding: 0px;
+}
+
+.banner-container{
+	padding: 160px 0px;
+	width: 100%;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.headline-des p{
+	font-size: 1.3em;
+	color: #fff;
+	text-align: center;
+	font-family: 'Helvetica';
+}
+
+
+div.page-title {
+	box-shadow: 0 7px 15px 0 rgba(0,0,0,0.2);
+	max-width: auto;
+	margin: 0px 40px 25px 40px;
+	background-color: white;
+}
+
+div.page-title h1{
+	color: black;
+	text-align: left;
+	padding: 25px 30px;
+	font-size: 30px;
+}
+
+
+div.hot-deals-container{
+padding: 40px 0px;
+}
+
+
+div.hot-deal {
+	box-shadow: 0 7px 15px 0 rgba(0,0,0,0.2);
+	max-width: auto;
+	margin: 100px 40px 25px 40px;
+	background-color: white;
+}
+
+div.hot-deal h1{
+	color: black;
+	text-align: left;
+	padding: 25px 30px;
+	font-size: 30px;
+}
+
+
+h1#heading{
+padding: 80px 0px 100px 0px;
+font-size: 60px;
+}
+
+
+div.hot-packages-card{
+	width: auto;
+	height: 100%;
+	box-shadow: 0 7px 15px 0 rgba(0,0,0,0.2);
+	background-color: white;
+}
+
+div.hot-packages-card img{
+	width: 100%;
+	height: 155px;
+}
+
+div.heading-test h1{
+	color: #000;
+	padding: 30px 0px;
+}
+
+div.hot-deals-wrapper{
+	padding:30px 40px;
+	width: auto;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 24px;
+	grid-row-gap: 60px;
+}
+
+#package-description{
+	width: auto;
+	font-size: 14px;
+	padding: 10px 15px;
+}
+
+#package-title{
+	color: black;
+	font-size: 1.8em;
+	padding: 8px;
+}
+
+#price{
+text-align: right;
+padding: 10px 15px;
+font-size: 1em;
+color: #FF9100;
+}
+
+#btn-buy{
+ text-decoration: none;
+ padding: 12px;
+ color: white;
+ font-size: 1.2em;
+ background-color: var(--main-theme-color);
+}
+
+#price span{
+	font-size: 1.4em;
+	font-weight: 800;
+	color: #FF6D00;
+
+}
+
+#read-more a{
+	background-color: #FF6D00;
+	color: #FFF;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Helvetica;
+}
+
+#read-more{
+    float:right;
+    margin:20px 0px;
+}
+
+@media screen and (max-width: 860px){
+
+div.hot-deals-wrapper{
+	padding:30px 40px;
+	width: auto;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 24px;
+	grid-row-gap: 60px;
+}
+}
+
+@media screen and (max-width: 460px){
+
+div.hot-deals-wrapper{
+	padding:30px 40px;
+	width: auto;
+	display: grid;
+	grid-template-columns: auto;
+	grid-column-gap: 24px;
+	grid-row-gap: 60px;
+}
+}

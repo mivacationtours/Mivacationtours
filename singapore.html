@@ -1,0 +1,239 @@
+<html>
+<head>
+	<title>Singapore Packages</title>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="shortcut icon" href="Logo.ico" />
+    <!-- COMMON LINKS --->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+
+
+    <script> 
+function Verify()                
+{ 
+  var name = document.getElementById('recipient-name').value;     
+  var email = document.getElementById('recipient-email').value;
+  var number = document.getElementById('recipient-phone').value;
+  if (name == "")                
+  { 
+    alert("Please enter your name."); 
+    name.focus(); 
+    return false; 
+  } 
+
+  
+  if (email == "")                 
+  { 
+    alert("Please enter a valid e-mail address."); 
+    email.focus(); 
+    return false; 
+  } 
+
+  if (email.indexOf("@", 0) < 0)         
+  { 
+    alert("Please enter a valid e-mail address."); 
+    email.focus(); 
+    return false; 
+  } 
+
+  if (email.indexOf(".", 0) < 0)         
+  { 
+   alert("Please enter a valid e-mail address."); 
+    email.focus(); 
+    return false; 
+  } 
+
+  if (number == "")             
+  { 
+    alert("Please enter your mobile number."); 
+    number.focus(); 
+    return false; 
+  } 
+
+  if (number.length!=10)          
+  { 
+    alert("Please enter your 10 digit mobile number!!");
+    number.focus(); 
+    return false; 
+  } 
+
+  document.getElementById("search_form").submit();
+}
+</script> 
+</head>
+<body>
+
+
+<!-------------------------------------NAV STARTS HERE ----------------------->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <img src="logo.png" height="45" width="45" style="margin-top: 5px">
+  <a style="font-weight: 650" class="navbar-brand" href="#">MiVacationTours</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Domestic Packages
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="goa.html">Goa</a>
+           <a class="dropdown-item" href="golden.html">Golden Triangle</a>
+          <a class="dropdown-item" href="himachal.html">Himachal Pradesh</a>
+           <a class="dropdown-item" href="telangana.html">Hyderabad</a>
+          <a class="dropdown-item" href="karnataka.html">Karnataka</a>
+           <a class="dropdown-item" href="kashmir.html">Kashmir</a>
+          <a class="dropdown-item" href="kerala.html">Kerala</a>
+          <a class="dropdown-item" href="andhrapradesh.html">Vizag & Araku</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          International Packages
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+         <a class="dropdown-item" href="andaman.html">Andaman</a>
+          <a class="dropdown-item" href="bali.html">Bali</a>
+          <a class="dropdown-item" href="dubai.html">Dubai</a>
+          <a class="dropdown-item" href="malaysia.html">Malaysia</a>
+          <a class="dropdown-item" href="maldives.html">Maldives</a>
+          <a class="dropdown-item" href="mauritius.html">Mauritius</a>
+          <a class="dropdown-item" href="singapore.html">Singapore</a>
+          <a class="dropdown-item" href="srilanka.html">Srilanka</a>
+          <a class="dropdown-item" href="thailand.html">Thailand</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#services">Services</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="index.html#about-container">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<!-------------------------------------CONTAINER STARTS HERE ----------------------->
+    
+<div class="parallx">
+   <div style="min-height:350px; background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url(assets/img/singapore.jpg);background-position:bottom;background-size:cover;background-attachment: fixed;">
+     <p style="color: white;font-weight: 600;text-align: center;font-size: 50px;line-height: 300px;font-family: 'Quicksand', sans-serif; ">Singapore Packages</p>
+</div></div>
+<br><br>
+
+
+
+<!-----------------------------------------PACKAGE DETAILS------------------------->
+<p class="quote" id="features" style="font-weight: 600;font-size: 40px;text-align: center;color:#343a40;background-color: #EEEEEE ">Package 1 </p>
+
+
+<div style="padding: 20px;">
+  <p style="font-size: 20px; font-weight: 600;">3 Nights & 4 Days Singapore Package :</p>
+<table class="table table-striped" border="0.2">
+  <thead>
+    <tr>
+      <th scope="col">Days</th>
+      <th scope="col">Tour Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+       <th scope="row">Day1</th>
+      <td>
+Arrive in Singapore. Meet & Greet and transfer to hotel. Free at leisure for the rest of day. In the evening, proceed for Night Safari, set in 40 hectares of secondary jungle. Roam the jungle in the complete safety and comfort of a tram, which takes you through the East and West Loop. On completion of the tram ride, your tour guide will lead you on a walking trail where you will be able to view some animals at closer quarters. Return back to the hotel for overnight stay. 
+ </td>
+    </tr>
+    <tr>
+      <th scope="row">Day2</th><td>
+After breakfast at the hotel & explore Singapore on a City tour by driving round the Civic District, passing by the Padang, Cricket Club, historic Parliament House, Supreme Court and City Hall. Next, stop at the Merlion Park and enjoy the impressive views of Marina Bay. Do not miss out this picture-taking opportunity with The Merlion, a mythological creature that is part lion and part fish. Visit Thian Hock Keng Temple, one of Singapore’s oldest Buddhist-Taoist temples, before driving past Chinatown. Stop by a Local Handicraft Center and observe craftsmen at work up-close. Our final stop at Little India will entrance you with the scent of joss sticks, jasmine and spices. Afternoon day will be free for your leisure activities, enjoy shopping or other activities. For wearable souvenirs, Singapore has set of independent boutiques that offer you something special. Overnight in Singapore. 
+</td>
+    </tr>
+    <tr>
+      <th scope="row">Day3</th><td>
+Enjoy your morning breakfast. Transfer to Universal Studios. Go beyond the screen and Ride The Movies at Universal Studios Singapore at Resorts World™ Sentosa. Only here can you experience cutting-edge rides, shows, & attractions based on your favorite blockbuster films and television series, including TRANSFORMERS The Ride: The Ultimate 3D Battle, Shrek 4-D Adventure, Revenge of the Mummy, Madagascar: A Crate Adventure, Jurassic Park Rapids Adventure, Battlestar Galactica: HUMAN vs. CYLON duelling coasters, & more! Transfer to the hotel. Overnight in Singapore. 
+</td></tr>
+    <tr>
+      <th scope="row">Day4</th><td>
+ Breakfast at the hotel. Head to Sentosa for a day spent checking out the activities, beaches, and alluring shows that draw fun-seekers of all ages to this hub of recreation. Packed with attractions and activities for guest of all ages, a Sentosa visit is perfect for families and friends. With Sentosa Fun Pass (120 Token), play up to 11 attractions. Return back to the hotel with golden memories. Overnight in Singapore. </td>
+    </tr>
+     <tr>
+      <th scope="row">Day5</th><td>
+ After breakfast transfer to the airport for your onwards journey.
+</td>
+    </tr>
+  </tbody>
+</table>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="float: right;">Book Now</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Book Your Package</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="book.php" method="post" id="search_form">
+              <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Name:</label>
+            <input type="text" class="form-control" id="recipient-name" name="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="recipient-phone" class="col-form-label">Phone No:</label>
+            <input type="Number" class="form-control" id="recipient-phone" name="recipient-phone">
+          </div>
+          <div class="form-group">
+            <label for="recipient-email" class="col-form-label">Email Id:</label>
+            <input type="Email" class="form-control" id="recipient-email" name="recipient-email">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="Verify()">Book Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<br>
+<br>
+<!-------------------------------------FOOTER STARTS HERE ----------------------->
+
+<div class="footer">
+  <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">MIVacationTours © 2019</p>
+        </footer>
+    </div>
+</div>
+<!-------------------------------------FOOTER ENDS HERE-------------------------->
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

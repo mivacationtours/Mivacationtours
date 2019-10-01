@@ -1,0 +1,332 @@
+<html>
+<head>
+	<title>Karnataka Packages</title>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="shortcut icon" href="Logo.ico" />
+    <!-- COMMON LINKS --->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+
+
+    <script> 
+function Verify()                
+{ 
+  var name = document.getElementById('recipient-name').value;     
+  var email = document.getElementById('recipient-email').value;
+  var number = document.getElementById('recipient-phone').value;
+  if (name == "")                
+  { 
+    alert("Please enter your name."); 
+    name.focus(); 
+    return false; 
+  } 
+
+  
+  if (email == "")                 
+  { 
+    alert("Please enter a valid e-mail address."); 
+    email.focus(); 
+    return false; 
+  } 
+
+  if (email.indexOf("@", 0) < 0)         
+  { 
+    alert("Please enter a valid e-mail address."); 
+    email.focus(); 
+    return false; 
+  } 
+
+  if (email.indexOf(".", 0) < 0)         
+  { 
+   alert("Please enter a valid e-mail address."); 
+    email.focus(); 
+    return false; 
+  } 
+
+  if (number == "")             
+  { 
+    alert("Please enter your mobile number."); 
+    number.focus(); 
+    return false; 
+  } 
+
+  if (number.length!=10)          
+  { 
+    alert("Please enter your 10 digit mobile number!!");
+    number.focus(); 
+    return false; 
+  } 
+
+  document.getElementById("search_form").submit();
+}
+</script> 
+</head>
+<body>
+
+
+<!-------------------------------------NAV STARTS HERE ----------------------->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <img src="logo.png" height="45" width="45" style="margin-top: 5px">
+  <a style="font-weight: 650" class="navbar-brand" href="#">MiVacationTours</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Domestic Packages
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="goa.html">Goa</a>
+           <a class="dropdown-item" href="golden.html">Golden Triangle</a>
+          <a class="dropdown-item" href="himachal.html">Himachal Pradesh</a>
+           <a class="dropdown-item" href="telangana.html">Hyderabad</a>
+          <a class="dropdown-item" href="karnataka.html">Karnataka</a>
+           <a class="dropdown-item" href="kashmir.html">Kashmir</a>
+          <a class="dropdown-item" href="kerala.html">Kerala</a>
+          <a class="dropdown-item" href="andhrapradesh.html">Vizag & Araku</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          International Packages
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+         <a class="dropdown-item" href="andaman.html">Andaman</a>
+          <a class="dropdown-item" href="bali.html">Bali</a>
+          <a class="dropdown-item" href="dubai.html">Dubai</a>
+          <a class="dropdown-item" href="malaysia.html">Malaysia</a>
+          <a class="dropdown-item" href="maldives.html">Maldives</a>
+          <a class="dropdown-item" href="mauritius.html">Mauritius</a>
+          <a class="dropdown-item" href="singapore.html">Singapore</a>
+          <a class="dropdown-item" href="srilanka.html">Srilanka</a>
+          <a class="dropdown-item" href="thailand.html">Thailand</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#services">Services</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="index.html#about-container">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<!-------------------------------------CONTAINER STARTS HERE ----------------------->
+    
+<div class="parallx">
+   <div style="min-height:350px; background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url(assets/img/karnataka.jpg);background-position:bottom;background-size:cover;background-attachment: fixed;">
+     <p style="color: white;font-weight: 600;text-align: center;font-size: 50px;line-height: 300px;font-family: 'Quicksand', sans-serif; ">Karnataka Packages</p>
+</div></div>
+<br><br>
+
+
+
+<!-----------------------------------------PACKAGE DETAILS------------------------->
+<p class="quote" id="features" style="font-weight: 600;font-size: 40px;text-align: center;color:#343a40;background-color: #EEEEEE ">Package 1 </p>
+
+
+<div style="padding: 20px;">
+  <p style="font-size: 20px; font-weight: 600;"> 4 nights & 5 days Package :</p>
+<table class="table table-striped" border="0.2">
+  <thead>
+    <tr>
+      <th scope="col">Days</th>
+      <th scope="col">Tour Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+       <th scope="row">Day1</th>
+      <td><b>BANGALORE : </b>
+On arrival at Bangalore airport/railway station, meet our representative who will be there for your welcome and to transfer you to your already booked hotel in Bangalore. Check in at the hotel and get ready for Bangalore city tour. In our city day tour, we will be visiting the Tipu's Palace, Ulsoor Lake, Lal Bagh, Nandi or Bull Temple, Cubbon Park and Vidhana Soudha. In the evening, we will be visiting the museums and art galleries. Afterwards, we will return back to the hotel for an overnight stay. Bangalore officially known as Bengaluru is the capital of Karnataka state of India. The city is famous for its ample of green spaces. It is blessed with many tourist destinations and attracts lot of tourists every year from across the globe. </td>
+    </tr>
+    <tr>
+      <th scope="row">Day2</th><td><b>BANGALORE – MYSORE : </b>
+Today, we will start our day a bit early and straightaway drive to Mysore. En-route, we will be visiting the Ranganathaswamy Temple and Srirangapatnam, which is the capital of Tipu Sultan, and Channapatna Toys Center. Thereafter, we will continue our journey to Mysore. On reaching, check in at the hotel and get freshen up. Thereafter, we will leave for the sightseeing tour of Mysore. In our day tour, we will be visiting the famous tourist destinations of Mysore. We will start our day tour by paying a visit to Krishnarajasagar Dam, Mysore Palace and Brindavan Gardens. Later in the evening, we will return back to the hotel for a relaxing overnight stay. Mysore is a beautiful city located in Karnataka state at the base of the Chamundi Hills about 146 km southwest of Bangalore. It was the capital of the Kingdom of Mysore from 1399-1947. Today, it is counted among one of the cleanest city in India. </td>
+    </tr>
+    <tr>
+      <th scope="row">Day3</th><td><b>MYSORE – OOTY : </b>
+After breakfast in the morning, we will again proceed for Mysore city excursion tour. In today's day tour, we will be visiting Zoological Gardens. This zoo is counted among the best in the country. Thereafter, we will head towards Shri Jayachamarajendra Art Gallery and St. Philomena's Church that is raised in Gothic style. We will also visit the temple at Chamundi Hills, devoted to Goddess Chamundeshwari. She is the deity of the royal family of Mysore. In the evening, we will embark on the journey to Ooty also known as "the Queen of hill stations'. On arrival, check in at the hotel for an overnight stay. </td></tr>
+    <tr>
+      <th scope="row">Day4</th><td><b>LOCAL SIGHTSEEING TOUR OOTY : </b>
+In the morning after breakfast, we will leave to explore the real natural beauty of Ooty. We will start out day outing by visiting the Botanical Gardens, with a peaceful Lotus Pond that cover Dodda Betta. It is the highest peak of this hill station. Further, we will visit the tea estates, Dolphin's Nose (a picnic spot), Lamb's Rock, Ooty Lake, Kodanadu's View Point and Catherine Falls. Later, we will return back to the hotel in Ooty for a relaxing overnight stay. Ooty is a town situated 80 km north of Coimbatore. Nestled in the Nilgiri Hills, it is one of the famous hill station and a film shooting spot that attract visitors from across the country as well as the world. 
+</td>
+    </tr>
+    <tr>
+       <th scope="row">Day5</th><td><b> OOTY – BANGALORE : </b>
+On the last day of our tour, we will have breakfast in the morning and check out from the hotel to drive back to Bangalore. On arrival, get transferred to the airport or railway station to catch the flight or board train for onward destination. Tour & Services Ends.</td>
+    </tr>
+  </tbody>
+</table>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="float: right;">Book Now</button>
+
+<br><br><br>
+
+<p class="quote" id="features" style="font-weight: 600;font-size: 40px;text-align: center;color:#343a40;background-color: #EEEEEE ">Package 2 </p>
+
+
+<div style="padding: 20px;">
+  <p style="font-size: 20px; font-weight: 600;"> 5 nights & 6 days Bangalore-Mysore-Ooty-Coorg Package :</p>
+<table class="table table-striped" border="0.2">
+  <thead>
+    <tr>
+      <th scope="col">Days</th>
+      <th scope="col">Tour Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+       <th scope="row">Day1</th>
+      <td><b>Bangalore - Coorg (270 Kms/ 7 Hrs) : </b>
+
+On arrival at Bangalore, meet our chauffeur waiting for you and proceed for Coorg. En-route visit the famous Buddhist Monastery and the Golden Buddha Temple located in Bylakuppe - one of the largest Tibetan settlements in South India, it is known for its monasteries, handicrafts, carpet factories, and incense factory. Arrive Coorg in the evening and check into the hotel. Evening free for relaxation. Overnight in the hotel. Coorg </td>
+    </tr>
+    <tr>
+      <th scope="row">Day2</th><td><b>Coorg : </b>
+
+After breakfast, enjoy sightseeing of Coorg visiting Bhagamandala, Omkareshwara Temple, Madikeri Fort, Abbey Falls and Raja’s Seat. Later return back to the hotel for dinner and overnight stay. </td>
+    </tr>
+    <tr>
+      <th scope="row">Day3</th><td><b>Coorg-Ooty : </b>
+
+After breakfast, check out of the hotel and drive to Ooty. Arrive Ooty in the evening and check into the hotel. Later enjoy sightseeing of Ooty visiting Botanical garden, market place. Return back to the hotel for dinner & overnight stay.</td></tr>
+    <tr>
+      <th scope="row">Day4</th><td><b>Ooty-Coonoor-Ooty : </b>
+ After breakfast, enjoy a day trip to Coonoor. In Coonoor enjoy visit to Sim’s park, Lamb’s rock and Dolphin’s nose. Return to the Ooty hotel later in the evening. Overnight in the hotel. After breakfast, enjoy a day trip to Coonoor. In Coonoor enjoy visit to Sim’s park, Lamb’s rock and Dolphin’s nose. Return to the Ooty hotel later in the evening. Overnight in the hotel. 
+</td>
+    </tr>
+    <tr>
+       <th scope="row">Day5</th><td><b> Ooty-Mysore  : </b>
+
+After breakfast, check out of the hotel and drive to Mysore. Arrive Mysore in the noon and check into the hotel. Later proceed for sightseeing of Mysore visiting Maharaja’s Palace. Later in the evening proceed to KRS Dam and Brindavan Gardens. One can also enjoy Sound & Light show in the Gardens. Evening free at leisure. Overnight in the hotel. </td>
+    </tr>
+    <tr>
+       <th scope="row">Day6</th><td><b>Mysore – Bangalore Drop [150 Kms - Approx 3 Hrs Drive] : </b>
+After breakfast, time free until noon. Later check out of the hotel and transfer to Bangalore rail station / airport in time for your onward journey. </td>
+    </tr>
+  </tbody>
+</table>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="float: right;">Book Now</button>
+
+
+<br><br><br>
+<p class="quote" id="features" style="font-weight: 600;font-size: 40px;text-align: center;color:#343a40;background-color: #EEEEEE ">Package 3 </p>
+
+
+<div style="padding: 20px;">
+  <p style="font-size: 20px; font-weight: 600;"> 5 nights & 6 days Bangalore-Mysore-Ooty-Coonoor-kodaikanal Package :</p>
+<table class="table table-striped" border="0.2">
+  <thead>
+    <tr>
+      <th scope="col">Days</th>
+      <th scope="col">Tour Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+       <th scope="row">Day1</th>
+      <td><b>Arrive Bangalore (1 Night) : </b>
+
+On arrival at Bangalore, meet our chauffeur waiting for you and transfer to the hotel. Later proceed for sightseeing of Bangalore City visiting Vidhan Soudha, Lalbagh Botanical garden, Tipu Sultan’s palace and Bull temple – one of the oldest temple built in 16th century. Rest of the time free at leisure. Overnight in the hotel. Note: The mentioned price is not valid during National Holidays, festive season/long weekends, Diwali, Christmas & New year. Surcharges for Gala Dinner will be applicable during Christmas and New Year Eve.</td>
+    </tr>
+    <tr>
+      <th scope="row">Day2</th><td><b>Drive Bangalore – Mysore (140 Kms / 3 – 4 Hrs) (1 Night) : </b>
+After breakfast, check out of the hotel and drive to Mysore. Arrive Mysore in the noon and check into the hotel. Later proceed for sightseeing of Mysore visiting Maharaja’s Palace. Later in the evening proceed to KRS Dam and Brindavan Gardens. One can also enjoy Sound & Light show in the Gardens. Evening free at leisure. Overnight in the hotel.</td>
+    </tr>
+    <tr>
+      <th scope="row">Day3</th><td><b>Drive Mysore – Ooty (170 Kms / 3 – 4 Hrs) (2 Nights) : </b>
+
+After breakfast, check out of the hotel and drive to Ooty. Arrive Ooty in the evening and check into the hotel. Later enjoy sightseeing of Ooty visiting Botanical garden, market place. Evening free at leisure. Overnight in the hotel.  </td></tr>
+    <tr>
+      <th scope="row">Day4</th><td><b>Excursion to Coonoor : </b>
+
+After breakfast, enjoy a day trip to Coonoor. In Coonoor enjoy visit to Sim’s park, Lamb’s rock and Dolphin’s nose. Return to the hotel later in the evening. Overnight in the hotel 
+</td>
+    </tr>
+    <tr>
+       <th scope="row">Day5</th><td><b>Drive Ooty – Kodaikanal (200 Kms / 4 – 5 Hrs) (2 Nights) : </b>
+
+After breakfast, check out of the hotel and drive to Kodaikanal. Arrive Kodaikanal later in the noon and check into the hotel. Rest of the day free at leisure. Overnight in the hotel.</td>
+    </tr>
+    <tr>
+       <th scope="row">Day6</th><td><b>Drive Kodaikanal - coimbatore : </b>
+After breakfast, check out of the hotel and drop to railway station or airport.</td>
+    </tr>
+  </tbody>
+</table>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="float: right;">Book Now</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Book Your Package</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="book.php" method="post" id="search_form">
+             <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Name:</label>
+            <input type="text" class="form-control" id="recipient-name" name="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="recipient-phone" class="col-form-label">Phone No:</label>
+            <input type="Number" class="form-control" id="recipient-phone" name="recipient-phone">
+          </div>
+          <div class="form-group">
+            <label for="recipient-email" class="col-form-label">Email Id:</label>
+            <input type="Email" class="form-control" id="recipient-email" name="recipient-email">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="Verify()">Book Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<br>
+<br>
+<!-------------------------------------FOOTER STARTS HERE ----------------------->
+
+<div class="footer">
+  <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">MIVacationTours © 2019</p>
+        </footer>
+    </div>
+</div>
+<!-------------------------------------FOOTER ENDS HERE-------------------------->
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

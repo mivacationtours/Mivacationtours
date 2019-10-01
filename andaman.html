@@ -1,0 +1,291 @@
+<html>
+<head>
+	<title>Andaman Packages</title>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="shortcut icon" href="Logo.ico" />
+    <!-- COMMON LINKS --->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+
+
+    <script> 
+function Verify()                
+{ 
+  var name = document.getElementById('recipient-name').value;     
+  var email = document.getElementById('recipient-email').value;
+  var number = document.getElementById('recipient-phone').value;
+  if (name == "")                
+  { 
+    alert("Please enter your name."); 
+    name.focus(); 
+    return false; 
+  } 
+
+  
+  if (email == "")                 
+  { 
+    alert("Please enter a valid e-mail address."); 
+    email.focus(); 
+    return false; 
+  } 
+
+  if (email.indexOf("@", 0) < 0)         
+  { 
+    alert("Please enter a valid e-mail address."); 
+    email.focus(); 
+    return false; 
+  } 
+
+  if (email.indexOf(".", 0) < 0)         
+  { 
+   alert("Please enter a valid e-mail address."); 
+    email.focus(); 
+    return false; 
+  } 
+
+  if (number == "")             
+  { 
+    alert("Please enter your mobile number."); 
+    number.focus(); 
+    return false; 
+  } 
+
+  if (number.length!=10)          
+  { 
+    alert("Please enter your 10 digit mobile number!!");
+    number.focus(); 
+    return false; 
+  } 
+
+  document.getElementById("search_form").submit();
+}
+</script> 
+</head>
+<body>
+
+
+<!-------------------------------------NAV STARTS HERE ----------------------->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <img src="logo.png" height="45" width="45" style="margin-top: 5px">
+  <a style="font-weight: 650" class="navbar-brand" href="#">MiVacationTours</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Domestic Packages
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="goa.html">Goa</a>
+           <a class="dropdown-item" href="golden.html">Golden Triangle</a>
+          <a class="dropdown-item" href="himachal.html">Himachal Pradesh</a>
+           <a class="dropdown-item" href="telangana.html">Hyderabad</a>
+          <a class="dropdown-item" href="karnataka.html">Karnataka</a>
+           <a class="dropdown-item" href="kashmir.html">Kashmir</a>
+          <a class="dropdown-item" href="kerala.html">Kerala</a>
+          <a class="dropdown-item" href="andhrapradesh.html">Vizag & Araku</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          International Packages
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+         <a class="dropdown-item" href="andaman.html">Andaman</a>
+          <a class="dropdown-item" href="bali.html">Bali</a>
+          <a class="dropdown-item" href="dubai.html">Dubai</a>
+          <a class="dropdown-item" href="malaysia.html">Malaysia</a>
+          <a class="dropdown-item" href="maldives.html">Maldives</a>
+          <a class="dropdown-item" href="mauritius.html">Mauritius</a>
+          <a class="dropdown-item" href="singapore.html">Singapore</a>
+          <a class="dropdown-item" href="srilanka.html">Srilanka</a>
+          <a class="dropdown-item" href="thailand.html">Thailand</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#services">Services</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="index.html#about-container">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a  class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<!-------------------------------------CONTAINER STARTS HERE ----------------------->
+    
+<div class="parallx">
+   <div style="min-height:350px; background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(assets/img/nicobar.jpg);background-position:bottom;background-size:cover;background-attachment: fixed;">
+     <p style="color: white;font-weight: 600;text-align: center;font-size: 50px;line-height: 300px;font-family: 'Quicksand', sans-serif; ">Andaman & Nicobar Island Packages</p>
+</div></div>
+<br><br>
+
+
+
+<!-----------------------------------------PACKAGE DETAILS------------------------->
+<p class="quote" id="features" style="font-weight: 600;font-size: 40px;text-align: center;color:#343a40;background-color: #EEEEEE ">Package 1 </p>
+
+
+<div style="padding: 20px;">
+  <p style="font-size: 20px; font-weight: 600;"> 4 Nights & 5 Days Andamans Package :</p>
+<table class="table table-striped" border="0.2">
+  <thead>
+    <tr>
+      <th scope="col">Days</th>
+      <th scope="col">Tour Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+       <th scope="row">Day1</th>
+      <td><b>Port Blair : </b>
+
+Arrival at Port Blair in the morning/afternoon by flight and our representative will be waiting outside holding a placard with your name on it. You will be taken to your hotel where you relax and rest. Later proceed to attend the enthralling Sound and Light Show at Cellular Jail - where the heroic saga of the Indian freedom struggle is brought alive. Enacting of freedom fighters and their struggle for India's Independence is enacted during this trip.Post completion of this trip; we drop you back to your hotel. </td>
+    </tr>
+    <tr>
+      <th scope="row">Day2</th><td><b>Havelock Island : </b>
+
+Today we depart to Andaman Islands most amazing destination, Havelock Island. The destination is rated as the best island in India. Depart from Port Blair to Havelock Island in a ferry. Upon reaching Havelock, our representative attends you and will drop you at your hotel. Rest and Relax in a beachside resort. We at Experience Andamans only share beach side resorts for exquisite experiences. Later we begin our journey to one among Asia's best beach, Radhanagar Beach. Explore this white sand beach and bask in the beauty of this natural wonder. Post this we drop you back to your resort where you relax and unwind.  </td>
+    </tr>
+    <tr>
+      <th scope="row">Day3</th><td><b>Havelock Island : </b>
+
+Visit the Kalapathar beach and spend rest of the day at leisure enjoying white sand beaches. In the evening catch the afternoon ferry and return to Port Blair. Our representative will meet you at Port Blair and drop you to your hotel for overnight stay. Note: Do note that many hotels in Andaman Islands have early check-out timing around 8:00 AM. You may avail activities such as boat ride, snorkeling trip, scuba diving or sea walk or you can discuss with our island expert about any necessary suggestion that you may require.</td></tr>
+    <tr>
+      <th scope="row">Day4</th><td><b>Havelock Island - Port Blair : </b>
+
+Start your day by visiting some of the best city attractions in the Andaman Islands. Visit the famous Chatham Saw Mill, which is amongst the oldest sawmill in Asia. The saw mill is named after this island. Then proceed to Anthropological Museum that hosts the tools, the pictures and the history of the aboriginal tribes in the Andaman and Nicobar Islands. Post this proceed to the Fisheries Museum that host varieties of fishes in Andaman Islands. Take a break and refresh yourself with varieties of delicious food options in the Andaman Islands. We then begin our journey to the famous Cellular Jail, which hosted Indias most famous political prisoners, Overnight stay at Port Blair. 
+</td>
+    </tr>
+    <tr>
+       <th scope="row">Day5</th><td><b>Port Blair Departure : </b>
+
+Drop to the Airport. Return home with sweet memories of this exotic destination, the Andaman Islands.</td>
+    </tr>
+  </tbody>
+</table>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="float: right;">Book Now</button>
+
+<br><br><br>
+
+<p class="quote" id="features" style="font-weight: 600;font-size: 40px;text-align: center;color:#343a40;background-color: #EEEEEE ">Package 2 </p>
+
+<div style="padding: 20px;">
+  <p style="font-size: 20px; font-weight: 600;"> 5 Nights & 6 Days Andaman with Neil Island Package :</p>
+<table class="table table-striped" border="0.2">
+  <thead>
+    <tr>
+      <th scope="col">Days</th>
+      <th scope="col">Tour Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+       <th scope="row">Day1</th>
+      <td><b>Port Blair : </b>
+
+Arrival at Port Blair in the morning/afternoon by flight and our representative will be waiting outside holding a placard with your name on it. You will be taken to your hotel where you relax and rest. Later proceed to attend the enthralling Sound and Light Show at Cellular Jail - where the heroic saga of the Indian freedom struggle is brought alive. Enacting of freedom fighters and their struggle for India's Independence is enacted during this trip. Post completion of this trip, we drop you back to your hotel. </td>
+    </tr>
+    <tr>
+      <th scope="row">Day2</th><td><b>Havelock Island : </b>
+ 
+Today we depart to Andaman Islands most amazing destination, Havelock Island. The destination is rated as the best island in India. Depart from Port Blair to Havelock Island in a ferry. Upon reaching Havelock, our representative attends you and will drop you at your hotel. Rest and Relax in a beachside resort. We at Experience Andamans only share beach side resorts for exquisite experiences. Later we begin our journey to one among Asia's best beach, Radhanagar Beach. Explore this white sand beach and bask in the beauty of this natural wonder. Post this we drop you back to your resort where you relax and unwind. 
+</td>
+    </tr>
+    <tr>
+      <th scope="row">Day3</th><td><b>Havelock Island : </b>
+
+Day at leisure. How, about relaxing in the lap of nature. Today, you can relax and spend the day enjoying white sand beaches. Additional activities such as Scuba Diving and Sea Walk can be done on this day.  </td></tr>
+    <tr>
+      <th scope="row">Day4</th><td><b>Havelock - Neil Island : </b>
+
+Check out from the hotel and board a premium cruise to Neil Island, upon reaching the island our representative will take you to respective resort. Rest and then proceed to Bharatpur Beach and Laxmanpur beach – is a secluded beach, lies 2 km north of Neil jetty. View the natural coral bridge and stay to view the mesmerizing sunset. Note: Do note that you will have to check out the hotels before the trip begins. Your luggage will be kept in a kiosk safely. Our representative will get the luggage before you board the ferry back to the other island. Ferry Timing from Havelock to Port Blair is around 10:00 AM. 
+</td>
+    </tr>
+    <tr>
+       <th scope="row">Day5</th><td><b>Neil Island - Port Blair : </b>
+ 
+In the morning we return back board a ferry to Port Blair. Upon reaching our representative will attend you and will take you to the hotel for check-in. Evening Shopping Tour to purchase gifts for friends and family. </td>
+    </tr>
+    <tr>
+       <th scope="row">Day6</th><td><b>Port Blair Departure : </b>
+
+Drop to the Airport. Return home with sweet memories of this exotic destination, the Andaman Islands.</td>
+    </tr>
+  </tbody>
+</table>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="float: right;">Book Now</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Book Your Package</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="book.php" method="post" id="search_form">
+              <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Name:</label>
+            <input type="text" class="form-control" id="recipient-name" name="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="recipient-phone" class="col-form-label">Phone No:</label>
+            <input type="Number" class="form-control" id="recipient-phone" name="recipient-phone">
+          </div>
+          <div class="form-group">
+            <label for="recipient-email" class="col-form-label">Email Id:</label>
+            <input type="Email" class="form-control" id="recipient-email" name="recipient-email">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="Verify()">Book Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<br>
+<br>
+<!-------------------------------------FOOTER STARTS HERE ----------------------->
+
+<div class="footer">
+  <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">MIVacationTours © 2019</p>
+        </footer>
+    </div>
+</div>
+<!-------------------------------------FOOTER ENDS HERE-------------------------->
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

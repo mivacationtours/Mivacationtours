@@ -1,0 +1,226 @@
+<html>
+<head>
+	<title>Golden-Triangle Packages</title>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="shortcut icon" href="Logo.ico" />
+    <!-- COMMON LINKS --->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+
+
+    <script> 
+function Verify()                
+{ 
+  var name = document.getElementById('recipient-name').value;     
+  var email = document.getElementById('recipient-email').value;
+  var number = document.getElementById('recipient-phone').value;
+  if (name == "")                
+  { 
+    alert("Please enter your name."); 
+    name.focus(); 
+    return false; 
+  } 
+
+  
+  if (email == "")                 
+  { 
+    alert("Please enter a valid e-mail address."); 
+    email.focus(); 
+    return false; 
+  } 
+
+  if (email.indexOf("@", 0) < 0)         
+  { 
+    alert("Please enter a valid e-mail address."); 
+    email.focus(); 
+    return false; 
+  } 
+
+  if (email.indexOf(".", 0) < 0)         
+  { 
+   alert("Please enter a valid e-mail address."); 
+    email.focus(); 
+    return false; 
+  } 
+
+  if (number == "")             
+  { 
+    alert("Please enter your mobile number."); 
+    number.focus(); 
+    return false; 
+  } 
+
+  if (number.length!=10)          
+  { 
+    alert("Please enter your 10 digit mobile number!!");
+    number.focus(); 
+    return false; 
+  } 
+
+  document.getElementById("search_form").submit();
+}
+</script> 
+</head>
+<body>
+
+
+<!-------------------------------------NAV STARTS HERE ----------------------->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <img src="logo.png" height="45" width="45" style="margin-top: 5px">
+  <a style="font-weight: 650" class="navbar-brand" href="#">MiVacationTours</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Domestic Packages
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="goa.html">Goa</a>
+           <a class="dropdown-item" href="golden.html">Golden Triangle</a>
+          <a class="dropdown-item" href="himachal.html">Himachal Pradesh</a>
+           <a class="dropdown-item" href="telangana.html">Hyderabad</a>
+          <a class="dropdown-item" href="karnataka.html">Karnataka</a>
+           <a class="dropdown-item" href="kashmir.html">Kashmir</a>
+          <a class="dropdown-item" href="kerala.html">Kerala</a>
+          <a class="dropdown-item" href="andhrapradesh.html">Vizag & Araku</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          International Packages
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+         <a class="dropdown-item" href="andaman.html">Andaman</a>
+          <a class="dropdown-item" href="bali.html">Bali</a>
+          <a class="dropdown-item" href="dubai.html">Dubai</a>
+          <a class="dropdown-item" href="malaysia.html">Malaysia</a>
+          <a class="dropdown-item" href="maldives.html">Maldives</a>
+          <a class="dropdown-item" href="mauritius.html">Mauritius</a>
+          <a class="dropdown-item" href="singapore.html">Singapore</a>
+          <a class="dropdown-item" href="srilanka.html">Srilanka</a>
+          <a class="dropdown-item" href="thailand.html">Thailand</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#services">Services</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="index.html#about-container">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<!-------------------------------------CONTAINER STARTS HERE ----------------------->
+    
+<div class="parallx">
+   <div style="min-height:370px; background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url(assets/img/golden.jpg);background-position:center;background-size:cover;background-attachment: fixed;">
+     <p style="color: white;font-weight: 600;text-align: center;font-size: 50px;line-height: 300px;font-family: 'Quicksand', sans-serif; ">Golden-Triangle Packages</p>
+</div></div>
+<br><br>
+
+
+
+<!-----------------------------------------PACKAGE DETAILS------------------------->
+<p class="quote" id="features" style="font-weight: 600;font-size: 40px;text-align: center;color:#343a40;background-color: #EEEEEE ">Package 1 </p>
+
+
+<div style="padding: 20px;">
+  <p style="font-size: 20px; font-weight: 600;"> 3 nights & 4 days Package :</p>
+<table class="table table-striped" border="0.2">
+  <thead>
+    <tr>
+      <th scope="col">Days</th>
+      <th scope="col">Tour Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+       <th scope="row">Day1</th>
+      <td>As you arrive at the Delhi Airport, our tour representative would greet and assist you to the pre-booked hotel. Check in to the hotel. Delhi is an amazing representation of the contemporary India where the past glory has been mixed perfectly. The capital city is an amazing treasury of several cultures of the India that can be seen everyday life of the city. After relaxing for a while, get ready for a city tour. The first visit of the day is to Red Fort, popularly known as Lal Quila (closed on Monday). The foundation of this colossal structure was laid down by Mughal Emperor Shah Jahan and the construction of the fort took 9 years. Made in red sandstone, it has 2 main massive gates. It is a great example of Mughal opulence. Next you visit Jama Masjid, around 500 m away from Red Fort. The biggest mosque of India, it was commissioned by Shah Jahan in the 16th century. This stunning white marble and sandstone structure can accommodate about 25,000 worshippers at a time and has relics written on its gates. Later on, enjoy a drive past the India Gate and the Rashtrapati Bhavan (President House) Stay overnight in Delhi. </td>
+    </tr>
+    <tr>
+      <th scope="row">Day2</th><td>Have an early breakfast and after which, leave for Agra via road (4 hours journey). Enroute, you would be making a halt to explore one of the finest creations of the Mughals; Sikandra. Named as Sikandar, it is actually the mausoleum of the Great Mughal ruler, Akbar. The design of this fascinating structure boasts of a perfect blending of Islamic, Jain, Buddhist, Christian and Hindu themes. After this, come back on your course to Agra. Upon your arrival at Agra, check in to a pre-booked hotel. Rest for a while following which you would be taken on a sightseeing tour of the historic Agra city. First in the list would be the wonder of the world, the beautiful Taj Mahal. This legendary white marble structure was built by another great Mughal ruler, Shah Jahan in commemoration of his love for his wife, Mumtaz Mahal. Every day, the Taj receives a huge influx of tourists from all over the globe. In the latter half of our sightseeing trip, guests would be admiring the majestic Agra Fort and Itmad-ud-Daula’s tomb. Both of these structures hold great significance for the city’s heritage. Evenings are meant for some local shopping. Feel free to explore the whereabouts of the local market, buying souvenirs and handicrafts. Post that return to the hotel for dinner and overnight stay.</td>
+    </tr>
+    <tr>
+      <th scope="row">Day3</th><td>On the 3rd day of the tour, begin your road journey to Jaipur, early morning. En-route, halt at the World Heritage Site of Fatehpur Sikri, sandstone city that was laid down by Mughal Emperor Akbar. It has some of the most amazing structures that are worth-visiting. Explore the huge Jama Masjid, Buland Darwaza- the largest gateway in the world, the historical Jodha Bai Palace, Birbal Bhavan, Panch Mahal etc. Thereafter, continue your journey to the capital city of Rajasthan, Jaipur. On arrival, check -into a hotel. Check-in formality is followed by sightseeing tour including the magnificent City Palace fringed by massive courtyards, verdant gardens and other wonderful monuments, the world heritage site Jantar Mantar Observatory and the splendid Nawab Sahab Ki Haveli. In the evening, indulge in shopping at the vibrant local bazaars. Stay overnight. </td></tr>
+    <tr>
+      <th scope="row">Day4</th><td>Post breakfast, guests would be taken to the visit of the splendid Amer Fort. The fort is the principal tourist attraction of Jaipur and is a UNESCO world heritage site. Built of red sandstone and marble, the fort flaunts a wonderful blend of Hindu and Rajput style of architecture. As the fort resides on a hill, guests would be given a royal elephant ride to the entrance of the fort. Later, shop in the markets for traditional Rajasthani handicrafts and items. Post that, you would be driven back to Delhi and further transferred to airport/railway station for the onward journey back home.</td>
+    </tr>
+  </tbody>
+</table>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="float: right;">Book Now</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Book Your Package</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="book.php" method="post" id="search_form">
+            <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Name:</label>
+            <input type="text" class="form-control" id="recipient-name" name="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="recipient-phone" class="col-form-label">Phone No:</label>
+            <input type="Number" class="form-control" id="recipient-phone" name="recipient-phone">
+          </div>
+          <div class="form-group">
+            <label for="recipient-email" class="col-form-label">Email Id:</label>
+            <input type="Email" class="form-control" id="recipient-email" name="recipient-email">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="Verify()">Book Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<br>
+<br>
+<!-------------------------------------FOOTER STARTS HERE ----------------------->
+
+<div class="footer">
+  <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">MIVacationTours © 2019</p>
+        </footer>
+    </div>
+</div>
+<!-------------------------------------FOOTER ENDS HERE-------------------------->
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

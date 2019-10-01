@@ -1,0 +1,328 @@
+<html>
+<head>
+	<title>Kerala Packages</title>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="shortcut icon" href="Logo.ico" />
+    <!-- COMMON LINKS --->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+
+
+<script> 
+function Verify()                
+{ 
+  var name = document.getElementById('recipient-name').value;     
+  var email = document.getElementById('recipient-email').value;
+  var number = document.getElementById('recipient-phone').value;
+  if (name == "")                
+  { 
+    alert("Please enter your name."); 
+    name.focus(); 
+    return false; 
+  } 
+
+  
+  if (email == "")                 
+  { 
+    alert("Please enter a valid e-mail address."); 
+    email.focus(); 
+    return false; 
+  } 
+
+  if (email.indexOf("@", 0) < 0)         
+  { 
+    alert("Please enter a valid e-mail address."); 
+    email.focus(); 
+    return false; 
+  } 
+
+  if (email.indexOf(".", 0) < 0)         
+  { 
+   alert("Please enter a valid e-mail address."); 
+    email.focus(); 
+    return false; 
+  } 
+
+  if (number == "")             
+  { 
+    alert("Please enter your mobile number."); 
+    number.focus(); 
+    return false; 
+  } 
+
+  if (number.length!=10)          
+  { 
+    alert("Please enter your 10 digit mobile number!!");
+    number.focus(); 
+    return false; 
+  } 
+
+  document.getElementById("search_form").submit();
+}
+</script> 
+</head>
+<body>
+
+
+<!-------------------------------------NAV STARTS HERE ----------------------->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <img src="logo.png" height="45" width="45" style="margin-top: 5px">
+  <a style="font-weight: 650" class="navbar-brand" href="#">MiVacationTours</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Domestic Packages
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="goa.html">Goa</a>
+           <a class="dropdown-item" href="golden.html">Golden Triangle</a>
+          <a class="dropdown-item" href="himachal.html">Himachal Pradesh</a>
+           <a class="dropdown-item" href="telangana.html">Hyderabad</a>
+          <a class="dropdown-item" href="karnataka.html">Karnataka</a>
+           <a class="dropdown-item" href="kashmir.html">Kashmir</a>
+          <a class="dropdown-item" href="kerala.html">Kerala</a>
+          <a class="dropdown-item" href="andhrapradesh.html">Vizag & Araku</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          International Packages
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+         <a class="dropdown-item" href="andaman.html">Andaman</a>
+          <a class="dropdown-item" href="bali.html">Bali</a>
+          <a class="dropdown-item" href="dubai.html">Dubai</a>
+          <a class="dropdown-item" href="malaysia.html">Malaysia</a>
+          <a class="dropdown-item" href="maldives.html">Maldives</a>
+          <a class="dropdown-item" href="mauritius.html">Mauritius</a>
+          <a class="dropdown-item" href="singapore.html">Singapore</a>
+          <a class="dropdown-item" href="srilanka.html">Srilanka</a>
+          <a class="dropdown-item" href="thailand.html">Thailand</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#services">Services</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="index.html#about-container">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<!-------------------------------------CONTAINER STARTS HERE ----------------------->
+    
+<div class="parallx">
+   <div style="min-height:350px; background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(assets/img/kerala.jpg);background-position:center;background-size:cover;background-attachment: fixed;">
+     <p style="color: white;font-weight: 600;text-align: center;font-size: 50px;line-height: 300px;font-family: 'Quicksand', sans-serif; ">Kerala Packages</p>
+</div></div>
+<br><br>
+
+
+
+<!-----------------------------------------PACKAGE DETAILS------------------------->
+<p class="quote" id="features" style="font-weight: 600;font-size: 40px;text-align: center;color:#343a40;background-color: #EEEEEE ">Package 1 </p>
+
+
+<div style="padding: 20px;">
+  <p style="font-size: 20px; font-weight: 600;"> 3 nights & 4 days Package :</p>
+<table class="table table-striped" border="0.2">
+  <thead>
+    <tr>
+      <th scope="col">Days</th>
+      <th scope="col">Tour Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+       <th scope="row">Day1</th>
+      <td><b> Cochin to Munnar : </b>
+
+Arrive Cochin Airport / Railway Station. Our representative will meet you and explain the tour to you and later drive to Munnar (approx. 135KM / 3.30 hrs). Munnar is one of the most famous hill station situated on the Western Ghats at the height of 1600 metres above the sea level. It is essentially a tea town – miles of unending tea plantation can be seen here. Enroute see Cheeyappara,  Valara waterfalls,   Spice plantations, Rubber Plantations,   etc… Arrive and check into the hotel, rest of the day at Leisure.   </td>
+    </tr>
+    <tr>
+      <th scope="row">Day2</th><td><b>Munnar sight seeing : </b>
+
+After breakfast proceed for Munnar sightseeing. Morning visit Eravikulam National Park which is also known as Rajamala, the natural habitat of Nilgiri Thar. Nilgiri Thar can be observed very closely here. Afternoon visit Mattupetty dam, Echo point and  Kundala Lake. Boating facilities are available at Mattupetty Dam and Kundala Lake. While coming back visit flower garden. Evening free for shopping. Overnight at hotel    Optional Activities at Munnar : Motor boat or speedboat ride at Mattupetty Dam, Kundala Lake, Elephant Safari, Horse ride at Kundala,  Trekking, Ayurveda Massage etc. Shopping : Tea, coffee, Spices  </td>
+    </tr>
+    <tr>
+      <th scope="row">Day3</th><td><b>Munnar to Alleppey : Houseboat stay : </b>
+
+After breakfast checkout from hotel and drive to Alleppey (190 kms / 4.30 – 5.30 hrs) the backwater destinations of Kerala. Arrive and check in to Houseboat which is also called as Kettuvallom (the boat will ready around 1200 hrs) and begin your journey through the picturesque backwaters and small lakes of Kerala. Your houseboat has  bedrooms with attached toilet, a dining area cum sit out. There will be 3 accompanying staff in the boat. One driver, one helper and one cook. Lunch, Evening Tea, Snacks and Dinner will be cooked and served on board by the accompanying cook. In AC Boat AC is installed in bedroom and it will switch on from 9 pm to 6 am only.  overnight at Houseboat. </td></tr>
+    <tr>
+      <th scope="row">Day4</th><td><b>Alleppey to Cochin drop : </b>
+
+After breakfast Houseboat drop you at nearest Jetty around 0900 hrs where our car and drive wait for you, later come to Cochin (1.30 hrs) if time permit do Cochin sight seeing – interesting places to see are St Francis Church, Fort Cochin, Chinese fishing nets, Dutch Palace, Jewish Synagogue, Jew street etc and later drop at Airport (1.30 hrs) or Railway station. Shopping : Antique, Textiles, Jewelry etc.,
+      </td>
+        </tr>
+  </tbody>
+</table>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="float: right;">Book Now</button>
+
+<br><br><br>
+
+<p class="quote" id="features" style="font-weight: 600;font-size: 40px;text-align: center;color:#343a40;background-color: #EEEEEE ">Package 2 </p>
+
+
+<div style="padding: 20px;">
+  <p style="font-size: 20px; font-weight: 600;"> 4 nights & 5 Days ( Hill Station,Wildlife & Backwaters) Package :</p>
+<table class="table table-striped" border="0.2">
+  <thead>
+    <tr>
+      <th scope="col">Days</th>
+      <th scope="col">Tour Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+       <th scope="row">Day1</th>
+      <td><b>Cochin-Munnar : </b>
+On your arrival at Cochin international Airport/ Railway station, meet our executive to Welcome & receive you. Later drive to Munnar hills (130 Kms), the green Paradise of Kerala with unending expands of Tea plantations, spice plantations and a variety of flora and fauna. On the way visit two beautiful waterfalls as Cheeyappara and Valara along with the foggy Tea meados across the hills and valleys.Check in your hill resort and after noon at leisure/ you can go to visit Munnar town and nearby places & Overnight stay. 
+</td>
+    </tr>
+    <tr>
+      <th scope="row">Day2</th><td><b>Munnar : </b>
+Today after breakfast, go for sightseeing at Mattupetty Dam; a beautiful spot for viewing the picturesque Munnar, Kundala Lake- a natural lake with recreational facilities like boating and having excellent view of Western Ghats as well as the lush green forest surrounded with.  Also visit Eco point, blossom park,hydel park, TATA Tea museum etc and tea plantations. After noon you can visit Eravikulam National park; where the endangering Nilgiri Tahr is conserved also its the prime attraction Munnar to have a soft trekking and from the hill one can enjoy the breath taking view of entire Munnar hills. Later drive back to your resort for Overnight stay. </td>
+    </tr>
+    <tr>
+      <th scope="row">Day3</th><td><b>Munnar-Thekkady : </b>
+Today after breakfast check out your hotel and drive towards Thekkady, the Wildlife destination of Kerala. Its also known as the spice bag of the state. You can enjoy a beautiful journey through the hills and valleys of Western Ghats to reach this jungle destination. Check in your hotel and later go for an optional Kathakali show, Spice plantation visit, elephant ride, or an Ayurvedic massage treatment there. Also have an amazing boat ride in Periyar Lake which flows through the Periyar tiger reserve. You will have chance to watch the wild animals like elephant, Bison, Sambar, Deer etc are roaming the both shoreLater drive back to your resort for Overnight stay. </td></tr>
+    <tr>
+      <th scope="row">Day4</th><td><b>Thekkady- Alleppey (Houseboat)(180 kms/4hrs) :</b>
+  After breakfast checkout from hotel and drive to Alleppey also known as the "Venice of the East" the backwater destination of Kerala. Arrive and check in to Houseboat which is also called as Kettuvallom (the boat will ready around 1200 hrs) and begin your journey through the picturesque backwaters and small lakes of Kerala. Your lunch, Evening Tea, Snacks and Dinner will be served on board. In Houseboat AC Boat AC will be switched on from 9 pm to 6 am only. overnight at Houseboat. Overnight stay in the Houseboat.
+</td>
+    </tr>
+    <tr>
+       <th scope="row">Day5</th><td><b>Alleppey-Cochin drop off : </b>
+ After having breakfast from the houseboat, check out to drive towards Cochin international Airport/ Railway station for your onward journey. Tour Ends With Happy Memories. </td>
+    </tr>
+
+  </tbody>
+</table>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="float: right;">Book Now</button>
+
+
+<br><br><br>
+<p class="quote" id="features" style="font-weight: 600;font-size: 40px;text-align: center;color:#343a40;background-color: #EEEEEE ">Package 3 </p>
+
+
+<div style="padding: 20px;">
+  <p style="font-size: 20px; font-weight: 600;"> 5 Nights & 6Days(Beaches,Hillstation,Wildlife & Backwaters) Package :</p>
+<table class="table table-striped" border="0.2">
+  <thead>
+    <tr>
+      <th scope="col">Days</th>
+      <th scope="col">Tour Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+       <th scope="row">Day1</th>
+      <td><b>Cochin to Cherai : </b>
+
+Arrive Cochin Airport / Railway Station. Our representative will meet you and explain the tour to you and later drive to Cherai Beach. Spend some time at this beautiful Beach and relax. Later drop to Hotel. Overnight stay at Hotel. </td>
+    </tr>
+    <tr>
+      <th scope="row">Day2</th><td><b>Cherai to Munnar : </b>
+
+Drive to Munnar, one of the beautiful hill stations in Kerala with unending expands of Tea plantations, spice plantations and a variety of flora and fauna. Situated 1600m above sea level this is the paradise of honeymooners. On the way visit Cheyyappara water falls, Valera water falls, Spice plantations and many view points. You can stop en-route for romantic photo sessions too.Reach Munnar and check in to hotel, rest and relax. Overnight stay at Hotel. 
+</td>
+    </tr>
+    <tr>
+      <th scope="row">Day3</th><td><b>Munnar : </b>
+
+After breakfast proceed for a full day sightseeing of Munnar. Other sightseeing includes Photo point, Eravikulam National park (Rajamalai), Mattupetty Dam, Echo point, Shooting point and Kundale Lake. After lunch visit Tea Museum (Monday Holiday), Tea Plantations, Blossom Park and Pothenmedu View Point. Overnight stay at Munnar. (Rajamalai will be closed from February to April mid due to breeding season of Goats </td></tr>
+    <tr>
+      <th scope="row">Day4</th><td><b>Munnar to Thekkady : </b>
+
+Sightseeing destinations include Periyar wild life sanctuary where you can see wild elephant, boar, deer, the great Indian tiger and more, mullaperiyar dam (you can watch all these only while doing boating in the Lake You can watch martial arts, kathakali, elephant ride, elephant bath, tribal dance, musical fountain and can go for ayurveda massages (all are optional activities with separate entrance fees). Overnight stay at Thekkady (During rush time, getting ticket for periyar boating is difficult, you may even book boat ticket in advance through KTDC Lake Palace -  04869 222014 or 09400008589 or online) 
+</td>
+    </tr>
+    <tr>
+       <th scope="row">Day5</th><td><b>Thekkady to Alleppey Houseboat : </b>
+
+After breakfast in the Hotel Drive to Alleppey in the morning reach by 12 pm… Check in to houseboat and enjoy the backwaters, scenery and different places in Kerala Style House boats from 12Noon. In the houseboat you will be served tea, snacks,Fruits,Mineral water, lunch, dinner and breakfast. Overnight stay in the houseboat </td>
+    </tr>
+    <tr>
+       <th scope="row">Day6</th><td><b>Alleppey to Cochin drop : </b>
+Visit Alleppey beach and drive to Cochin for sightseeing. Cochin sightseeing includes fort cochin, navy museum, St Francis church, Chinese fishing net, Santa clause basilica, Mattanchery palace, Jewish synagogue, Marian drive, Marine walk way, boating, Tripunitura hill palace. You can find some time for shopping at Cochin. Our representative will leave you at Cochin Airport/Railway station/Bus stand .Drive back to your hometown with the sweet memories of the tour with a promise to come back again.</td>
+    </tr>
+  </tbody>
+</table>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="float: right;">Book Now</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Book Your Package</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="book.php" method="post" id="search_form">
+              <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Name:</label>
+            <input type="text" class="form-control" id="recipient-name" name="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="recipient-phone" class="col-form-label">Phone No:</label>
+            <input type="Number" class="form-control" id="recipient-phone" name="recipient-phone">
+          </div>
+          <div class="form-group">
+            <label for="recipient-email" class="col-form-label">Email Id:</label>
+            <input type="Email" class="form-control" id="recipient-email" name="recipient-email">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="Verify()">Book Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<br>
+<br>
+<!-------------------------------------FOOTER STARTS HERE ----------------------->
+
+<div class="footer">
+  <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">MIVacationTours © 2019</p>
+        </footer>
+    </div>
+</div>
+<!-------------------------------------FOOTER ENDS HERE-------------------------->
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

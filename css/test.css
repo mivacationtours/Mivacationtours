@@ -1,0 +1,51 @@
+/*********************TESTIMONIALS**********************/
+
+.swiper-container {
+    width: 100%;
+      padding: 80px 0px;
+      background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) )
+  , url("../assets/images/grad.jpg");
+      min-height: 500px;
+
+ 
+}
+.swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 270px;
+      height: 100%;
+      background: #fff;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
+       font-family: 'Open Sans', sans-serif;
+}
+
+.swiper-slide .client {
+width: 100%;
+height: 250px;
+overflow: hidden;
+}
+
+.swiper-slide .client img {
+width: 100%;
+}
+
+.client-name h1{
+color: black;
+font-size: 25px;
+box-sizing: border-box;
+padding: 10px 0px;
+}
+
+.client-desc p{
+color: black;
+padding: 10px;
+margin: 0px 8px 5px 8px;
+font-size: 12px;
+}
+
+h1#heading{
+padding: 80px 0px 100px 0px;
+font-size: 70px;
+
+}
+
